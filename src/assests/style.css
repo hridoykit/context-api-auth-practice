@@ -1,0 +1,46 @@
+/* navbar */
+.header-title {
+  display: flex;
+  align-items: center;
+  color: rgb(8, 153, 54);
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 10px 0; */
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-right: 25px;
+
+  color: rgb(8, 153, 54);
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.sign-out-btn {
+  color: rgb(233, 9, 9);
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.sign-in-btn {
+  color: rgb(8, 153, 54);
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.google-sign-in-btn {
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
